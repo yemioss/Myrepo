@@ -31,7 +31,20 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<sharedLibraries>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.2.2</muleVersion>
+						<username>yemioss11</username>
+						<password>Amen22020</password>
+						<applicationName>munitnew12</applicationName>
+						<environment>Sandbox</environment>
+						<workerType>Micro</workerType>
+						<workers>1</workers>
+						<properties>
+						<key>value</key>
+						</properties>
+					</cloudHubDeployment>
+					<sharedLibraries>
                         <sharedLibrary>
                             <groupId>mysql</groupId>
                             <artifactId>mysql-connector-java</artifactId>
